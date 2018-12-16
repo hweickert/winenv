@@ -1,0 +1,4 @@
+htmlcov/
+*.pyc
+*pytest*
+.coverage
