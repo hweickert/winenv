@@ -1,4 +1,9 @@
-htmlcov/
+*.egg-info/
 *.pyc
 *pytest*
 .coverage
+.pytest_cache
+__pycache__
+build/
+dist/
+htmlcov/
