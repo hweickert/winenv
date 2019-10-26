@@ -47,7 +47,7 @@ def get_userenv():
 
 
 def _get_env(token=None):
-    result = os._Environ({})
+    result = {}
 
     lpEnvironment = ctypes.c_void_p()
     ctypes.windll.userenv.CreateEnvironmentBlock(ctypes.byref(lpEnvironment), token, 0)
